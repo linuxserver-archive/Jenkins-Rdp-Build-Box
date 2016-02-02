@@ -2,7 +2,7 @@ FROM linuxserver/baseimage
 
 MAINTAINER Sparklyballs <sparklyballs@linuxserver.io>
 
-ENV guac_version="0.9.9"
+ENV GUAC_VERSION="0.9.9"
 ENV APTLIST="build-essential libfreerdp-dev libpango1.0-dev libvncserver-dev libcairo2-dev \
 libjpeg-turbo8-dev libpng12-dev libpulse-dev libossp-uuid-dev libvorbis-dev ruby-dev"
 

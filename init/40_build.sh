@@ -4,8 +4,8 @@
 
 mkdir -p /project
 
-cd /tmp/guac_server && \
-./configure && \
-make && \
+cd /tmp/guac_server || exit
+./configure
+make
 make DESTDIR=/project install
 
